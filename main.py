@@ -11,14 +11,4 @@ phone_number = "number"
 message = random.choice(messages)
 print(message)
 
-# Send message with whatsapp
-# kit.sendwhatmsg(phone_number, message, timeHrs, timeMins)
-
-# Send SMS
-# resp = requests.post('https://textbelt.com/text', {
-#     'phone': phone_number,
-#     'message': message,
-#     'key': 'textbelt',
-# })
-
-# print(resp.json())
+kit.sendwhatmsg("+14632748077", message, timeHrs, timeMins)
