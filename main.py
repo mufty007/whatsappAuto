@@ -11,7 +11,6 @@ phone_number = "number"
 message = random.choice(messages)
 print(message)
 
-<<<<<<< HEAD
 # Send message with whatsapp
 # kit.sendwhatmsg(phone_number, message, timeHrs, timeMins)
 
@@ -23,10 +22,3 @@ print(message)
 # })
 
 # print(resp.json())
-=======
-kit.sendwhatmsg("number", message, timeHrs, timeMins, 35)
-
-
-
-
->>>>>>> 64e082444ae34dd6f5b142b8aaa28044d471cb5b
